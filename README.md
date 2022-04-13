@@ -24,7 +24,9 @@ The Purpose of making Hangman game just to learning vocabulary and fun way testi
 #### ASCII-art image on victory.
 #### ASCII-art image on game over.
 #### ASCII-art to display lives left.
-#### Added ASCII-art title to welcome screen with tty-font gem.
+
+
+
 
 
 
