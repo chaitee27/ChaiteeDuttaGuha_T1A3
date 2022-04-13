@@ -8,4 +8,4 @@ gem install bundler
 bundle install 
 
 #run the application
-ruby src / play.rb
+ruby src/hang.rb

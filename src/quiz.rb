@@ -1,5 +1,6 @@
 
 require 'colorize'
+require 'display'
 
 class Hangman
 
@@ -15,7 +16,7 @@ class Hangman
   
     def words
       [
-       ["Alexander Fleming","Who discovered penicillin?"],
+      
        ["Venus","Which planet is the hottest in the solar system?"],
        ["Sinestro","Who is Green Lantern nemesis?"],
        ["Germany", "Which European nation was said to invent hot dogs?"],
@@ -40,7 +41,9 @@ class Hangman
       new_teaser = @word_teaser.split
   
       new_teaser.each_with_index do |letter, index|
+
         # replace blank values with guessed letter if matches letter in word
+
         if letter == '_' && @word.first[index] == last_guess
           new_teaser[index] = last_guess
         end

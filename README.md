@@ -8,22 +8,9 @@ The Purpose of making Hangman game just to learning vocabulary and fun way testi
 
 # Functionality
 
-#### Start program,
-#### Program promts user for input if they want to play , need to enter "YES" ,program will continue.If they enter "No" then its will exits.
-#### promts user for username ,if nothing entered defaults to "Player"
-#### Prompts user for username, if nothing entered then defaults as a "Player"
-### Program randomly generates a word for user to guess
-### Prompts the user for input of a letter
-### Checks user input , if its correct, displays letter in secret word but if  its incorrect, displays number of lives left
-#### User input will loop until: 1. All letters are matched in the secret word .If the word true, then will display the secret word and victory screen . 2. There are 0 lives left , If true, then will display the secret word and game over screen.
-### Prompts user if they want to play again , user enters "No", program exits but user enters "Yes", program will return with new word for user to guess
 
-# Changelog :
 
-#### Create a method for building path and displaying ascii images. (DRY)
-#### ASCII-art image on victory.
-#### ASCII-art image on game over.
-#### ASCII-art to display lives left.
+
 
 
 
