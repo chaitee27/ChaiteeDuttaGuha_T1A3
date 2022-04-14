@@ -1,5 +1,5 @@
 
-  class Display
+class Display
 
     def initialize()
     end
@@ -8,7 +8,7 @@
       print %Q(
           Welcome to Hangman!
           To win, you need to guess the mystery word or you die.
-          You can have up to 8 incorrect guesses, before you're hanged.
+          You can have up to 9 incorrect guesses, before you're hanged.
           Let's begin!
       )
     end
@@ -144,8 +144,7 @@
               |
         =======""".red
       end
+      print "\n"
     end
   
   end
-
-  

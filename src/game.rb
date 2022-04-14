@@ -1,5 +1,6 @@
 
 require 'colorize'
+require_relative 'display'
 
 
 class Hangman
@@ -10,10 +11,12 @@ class Hangman
       @word_teaser = ""
   
       @word.first.size.times do
-        @word_teaser += "_ "
+      @word_teaser += "_ "
+      @display = Display.new
+
       end
     end
-  
+  # create a array with words with clue.
     def words
       [
       
@@ -23,7 +26,7 @@ class Hangman
        ["Italy" , "Which country is responsible for giving us pizza and pasta?"],
        ["The-Nile","What is the name of the world longest river?"],
        ["Rolex","Which watch company has a pointed crown as its logo?"],
-       ["cricket", "A game played by gentlemen"],
+       ["Cricket", "A game played by bat and ball"],
        ["Horse" , "Which animal can be seen on the Porsche logo ?"],
        ["Chickpeas", "What is the primary ingredient in hummus ?"],
        ["Skin", "What is your body largest organ?"],
@@ -31,7 +34,15 @@ class Hangman
        ["Agra-City", "Which city in India would you find the Taj Mahal in?"],
       ]
     end
-  
+
+   # Build path and read ascii text file
+
+    def render_ascii_art
+      File.readlines("ascii.txt") do |line|
+        puts line
+      end
+    end
+
     def print_teaser last_guess = nil
       update_teaser(last_guess) unless last_guess.nil?
       puts @word_teaser.red
@@ -60,6 +71,7 @@ class Hangman
         good_guess = @word.first.include? guess
   
         if guess == "exit"
+          puts ascii.img 'game_over.txt'
           puts "Thank you for playing!".blue
           
         #if guess is longer than 1 letter
@@ -79,7 +91,9 @@ class Hangman
           end
         else
           @lives -= 1
+          @display.hanged_man(@lives)
           puts "Sorry... you have #{ @lives } lives left. Try again!".white
+
           make_guess
         end
       else
@@ -87,10 +101,14 @@ class Hangman
       end
     end
   
+
+    # define a second method so this one will be called to begin the game to start the game
     def begin
       # ask user for a letter
+
       puts "New game started... your word is #{ @word.first.size } characters long".white
       puts "To exit game at any point type 'exit'".red
+      
       print_teaser
   
       puts "Clue: #{ @word.last }".blue
@@ -100,5 +118,6 @@ class Hangman
   
   end
   
+
   game = Hangman.new
   game.begin
