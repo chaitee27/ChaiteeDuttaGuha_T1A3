@@ -42,6 +42,29 @@ The Purpose of making Hangman game just to learning vocabulary and fun way testi
 7. Screen/terminal clears throughout the game to display only relevant data.
 
 # Screenshots
+## Gems installation
+![Greeting Strated](ascii.img/image/Gems%20.png)
+
+
+## Bundler installation
+![Greeting Strated](ascii.img/image/bundle.png)
+
+## Bash installation
+![Greeting Strated](ascii.img/image/bash.png)
+
+## Game start
+![Greeting Strated](ascii.img/image/Screenshot%20game%20star%20.png)
+
+## Game in terminal
+![Greeting Strated](ascii.img/image/Screenshot%20from%20game%20terminal%20.png).
+
+ ##  Game win
+![Greeting Strated](ascii.img/image/Screenshot%20win%20the%20game.png)
+
+
+##  Game loss
+![Greeting Strated](ascii.img/image/Screenshot%20loss%20the%20game.png)
+
 
 
 
