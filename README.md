@@ -65,26 +65,7 @@ development environment's gems in the production environment?
 
 ## Game in terminal screenshots.
 
-![Greeting Strated](screen.img/game_start.png)
-
-![Greeting Strated](screen.img/game_start.png)
-
-![Greeting Strated](screen.img/game%201.png)
-
-![Greeting Strated](screen.img/game2.png)
-
-![Greeting Strated](screen.img/game3.png)
-
-![Greeting Strated](screen.img/game4.png)
-
-![Greeting Strated](screen.img/game5.png)
-
-![Greeting Strated](screen.img/game6.png)
-
-![Greeting Strated](screen.img/game7.png)
-
-![Greeting Strated](screen.img/loss_game.png)
-
+![Greeting Strated]
 
 
 
