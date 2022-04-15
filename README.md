@@ -32,40 +32,40 @@ The Purpose of making Hangman game just to learning vocabulary and fun way testi
 10. Once you have finished the game, the program will prompt you for a yes or no if you would like to play again.
 
 
-# Changelog:
-1. Display ascii art depictions of lives-left after clearing terminal when displaying validation messages and the like, unless zero lives-lost.
-2. Create a method for building path and displaying ascii images. (DRY)
-3. ASCII-art image on victory.
-4. ASCII-art image on game over.
-5. ASCII-art to display lives left.
-6. Added ASCII-art title to welcome screen with tty-font gem.
-7. Screen/terminal clears throughout the game to display only relevant data.
-
 # Screenshots
 ## Gems installation
-![Greeting Strated](ascii.img/image/Gems%20.png)
+![Greeting Strated](screen.img/installation%20image/Gems%20.png)
 
 
 ## Bundler installation
-![Greeting Strated](ascii.img/image/bundle.png)
 
+Run Bundler
+-----------
+
+Run the command `bundle`, which examines your `Gemfile` to make
+sure the correct gems (and, where specified, the correct versions) are
+available, and tries to install them otherwise.  This will create a new
+file `Gemfile.lock`, *which you should place under version control.*
+
+![Greeting Strated](screen.img/installation%20image/bundle.png)
+
+
+* What's the difference between the purpose and contents of `Gemfile`
+and `Gemfile.lock`?  Which file is needed to completely reproduce the
+development environment's gems in the production environment?
+
+> `Gemfile` specifies the gems you need and
+> in some cases the constraints on which version(s) are acceptable.
+> `Gemfile.lock` records the *actual* versions found, not only of the gems
+>  you specified explicitly but also any other gems on which they
+>  depend, so it is the file used by the production environment to
+>  reproduce the gems available in the development environment.
 ## Bash installation
-![Greeting Strated](ascii.img/image/bash.png)
+![Greeting Strated](screen.img/installation%20image/bash.png)
 
-## Game start
-![Greeting Strated](ascii.img/image/Screenshot%20game%20star%20.png)
+## Game in terminal screenshots.
 
-## Game in terminal
-![Greeting Strated](ascii.img/image/Screenshot%20from%20game%20terminal%20.png).
-
- ##  Game win
-![Greeting Strated](ascii.img/image/Screenshot%20win%20the%20game.png)
-
-
-##  Game loss
-![Greeting Strated](ascii.img/image/Screenshot%20loss%20the%20game.png)
-
-
+![Greeting Strated]()
 
 
 
