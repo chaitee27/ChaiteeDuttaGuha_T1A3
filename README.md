@@ -20,7 +20,7 @@ The Purpose of making Hangman game just to learning vocabulary and fun way testi
 
 # Instruction for use
 
-1. Unzip the (ruby_hangman)ChaiteeDuttaGuhha_T1a3 folder from the zip file.
+1. Unzip the ChaiteeDuttaGuhha_T1a3 folder from the zip file.
 2. In the command-line and type in bundle install and press Enter to install dependancies.
 3. While in the same directory, type ruby index.rb into the command-line and press Enter to start the program.
 4. Enter yes or no if you would like to play the game.
@@ -65,9 +65,25 @@ development environment's gems in the production environment?
 
 ## Game in terminal screenshots.
 
-![Greeting Strated]()
+![Greeting Strated](screen.img/game_start.png)
 
+![Greeting Strated](screen.img/game_start.png)
 
+![Greeting Strated](screen.img/game%201.png)
+
+![Greeting Strated](screen.img/game2.png)
+
+![Greeting Strated](screen.img/game3.png)
+
+![Greeting Strated](screen.img/game4.png)
+
+![Greeting Strated](screen.img/game5.png)
+
+![Greeting Strated](screen.img/game6.png)
+
+![Greeting Strated](screen.img/game7.png)
+
+![Greeting Strated](screen.img/loss_game.png)
 
 
 
