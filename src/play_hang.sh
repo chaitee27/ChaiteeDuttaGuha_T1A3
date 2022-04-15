@@ -8,4 +8,4 @@ gem install bundler
 bundle install 
 
 #run the application
-ruby src/Start/console
+ruby src/hang.rb

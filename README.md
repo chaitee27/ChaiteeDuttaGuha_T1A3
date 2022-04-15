@@ -22,15 +22,29 @@ The Purpose of making Hangman game just to learning vocabulary and fun way testi
 
 1. Unzip the ChaiteeDuttaGuhha_T1a3 folder from the zip file.
 2. In the command-line and type in bundle install and press Enter to install dependancies.
-3. While in the same directory, type ruby index.rb into the command-line and press Enter to start the program.
-4. Enter yes or no if you would like to play the game.
-5. If you enter yes, the program will ask you to enter a username.
-6. You will see a number of lines _ _ _ _ _ that represent the  number of letters in the word you have to guess.
-7. Guess what the word is by entering one letter at a time.
-8. Each correct letter will be revealed in the word.
-9. For each incorrect guess, you will lose a life. You only get 10 lives.
-10. Once you have finished the game, the program will prompt you for a yes or no if you would like to play again.
+3. While in the same directory, type ruby src/Start/console into the command-line and press Enter to start the program.
+4. The user should be greeted by a message
+5. The user has a fixed number of guesses
+6. The user can choose to play again
+7. Letters guessed correctly and incorrectly should be displayed
+8. Displays if the user has won or lost
+9. Computer picks a random word
+10. You will see a number of lines _ _ _ _ _ that represent the  number of letters in the word you have to guess.
+11. Guess what the word is by entering one letter at a time.
+12. Each correct letter will be revealed in the word.
+13. For each incorrect guess, you will lose a life. You only get 7 lives.
+14. Once you have finished the game, the program will prompt you for a yes or no if you would like to play again.
 
+# Test feature
+
+ Input:
+ As per the game give random alphabets according to users choice. For Example: a,b,c...z.
+![Greeting Strated](screen.img/Screenshot%20of%20Input.png)
+
+
+Output:
+If the alphabet given matches with the word specified it take you to the next desired word, else will show the man hanging as per wrong input
+![Greeting Strated](screen.img/Screenshot%20output.png)
 
 # Screenshots
 ## Gems installation
@@ -68,7 +82,13 @@ development environment's gems in the production environment?
 ![Greeting Strated]
 
 
+# linux
+des
 
 
+
+# features
+ 
+ methodly
 
 

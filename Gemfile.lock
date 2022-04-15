@@ -2,11 +2,6 @@ GEM
   remote: https://rubygems.org/
   specs:
     colorize (0.8.1)
-    concurrent-ruby (1.1.10)
-    faker (2.20.0)
-      i18n (>= 1.8.11, < 2)
-    i18n (1.10.0)
-      concurrent-ruby (~> 1.0)
     pastel (0.8.0)
       tty-color (~> 0.5)
     tty-color (0.6.0)
@@ -26,7 +21,6 @@ PLATFORMS
 
 DEPENDENCIES
   colorize (~> 0.8.1)
-  faker (~> 2.20)
   tty-prompt
 
 BUNDLED WITH
