@@ -1,3 +1,15 @@
+# Ruby installation
+![Greeting Strated](screen.img/Ruby%20on%20Ubuntu.jpg)
+[Ruby link  for download](https://linuxize.com/post/how-to-install-ruby-on-ubuntu-18-04/#installing-ruby-from-ubuntu-repositories)
+
+
+
+
+
+
+
+
+
 # Description  of Hangman game
 
 Hangman is an educational word guessing game to be playled in a command-line interface.The game has been created with Ruby.When the Ruby script is called, it will start a new game and provide the user with a blank word and a clue. The script takes the user input (letter) and checks it against the selected word for the game. Make too many wrong choices and you will lose. Get all the letters correct to win! I use conditionals, string interpolation, classes, arrays and looping to put our Ruby skills to the test.
@@ -20,7 +32,7 @@ The Purpose of making Hangman game just to learning vocabulary and fun way testi
 
 # Instruction for use
 
-1. Unzip the ChaiteeDuttaGuhha_T1a3 folder from the zip file.
+1. Unzip the ChaiteeDuttaGuhha_T1A3 folder from the zip file.
 2. In the command-line and type in bundle install and press Enter to install dependancies.
 3. While in the same directory, type ruby src/Start/console into the command-line and press Enter to start the program.
 4. The user should be greeted by a message
@@ -79,16 +91,14 @@ development environment's gems in the production environment?
 
 ## Game in terminal screenshots.
 
-![Greeting Strated]
 
 
-# linux
-des
+
 
 
 
 # features
  
- methodly
+
 
 
