@@ -1,11 +1,9 @@
 #!/bin/bash
 
 
-# install the dundeler gem
+#install the bundler gem
 gem install bundler
-
 #install the gems required for the app
 bundle install 
-
 #run the application
 ruby src/Start/console

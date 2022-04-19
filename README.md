@@ -1,7 +1,9 @@
 # Ruby installation
-![Greeting Strated](screen.img/Ruby%20on%20Ubuntu.jpg)
+![Greeting Strated](docs/Ruby%20on%20Ubuntu.jpg)
 [Ruby link  for download](https://linuxize.com/post/how-to-install-ruby-on-ubuntu-18-04/#installing-ruby-from-ubuntu-repositories)
 
+
+# Github link for Terminal App
 
 
 
@@ -51,16 +53,16 @@ The Purpose of making Hangman game just to learning vocabulary and fun way testi
 
  Input:
  As per the game give random alphabets according to users choice. For Example: a,b,c...z.
-![Greeting Strated](screen.img/Screenshot%20of%20Input.png)
+![Greeting Strated](docs/Screenshot%20of%20Input.png)
 
 
 Output:
 If the alphabet given matches with the word specified it take you to the next desired word, else will show the man hanging as per wrong input
-![Greeting Strated](screen.img/Screenshot%20output.png)
+![Greeting Strated](docs/Screenshot%20output.png)
 
 # Screenshots
 ## Gems installation
-![Greeting Strated](screen.img/installation%20image/Gems%20.png)
+![Greeting Strated](docs/installation%20image/Gems%20.png)
 
 
 ## Bundler installation
@@ -73,7 +75,7 @@ sure the correct gems (and, where specified, the correct versions) are
 available, and tries to install them otherwise.  This will create a new
 file `Gemfile.lock`, *which you should place under version control.*
 
-![Greeting Strated](screen.img/installation%20image/bundle.png)
+![Greeting Strated](docs/installation%20image/bundle.png)
 
 
 * What's the difference between the purpose and contents of `Gemfile`
@@ -87,14 +89,25 @@ development environment's gems in the production environment?
 >  depend, so it is the file used by the production environment to
 >  reproduce the gems available in the development environment.
 ## Bash installation
-![Greeting Strated](screen.img/installation%20image/bash.png)
-
-## Game in terminal screenshots.
+![Greeting Strated](docs/installation%20image/Screenshot%20bash.png)
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+)
 
 
 # features
