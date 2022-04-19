@@ -7,12 +7,6 @@
 # Github link for Terminal App
 
 
-
-
-
-
-
-
 # Description  of Hangman game
 
 Hangman is an educational word guessing game to be playled in a command-line interface.The game has been created with Ruby.When the Ruby script is called, it will start a new game and provide the user with a blank word and a clue. The script takes the user input (letter) and checks it against the selected word for the game. Make too many wrong choices and you will lose. Get all the letters correct to win! I use conditionals, string interpolation, classes, arrays and looping to put our Ruby skills to the test.
@@ -91,9 +85,14 @@ development environment's gems in the production environment?
 >  reproduce the gems available in the development environment.
 ## Bash installation
 ![Greeting Strated](docs/Screenshot%20bash.png)
+# Flow chart
+![Greeting Strated](docs/Hangman-Workflow.png)
 
 
+# Trello link for Terminal App
 
+[Trello](https://trello.com/invite/b/4sAz62hO/86dfc3fd9dc04d00124c4c28d21df4e2/hangman)
 
+![Greeting Strated](docs/Trello%20part%201.png)
 
-
+![Greeting Strated](docs/Trello%20part%202.png)
