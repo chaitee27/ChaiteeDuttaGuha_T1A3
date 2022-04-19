@@ -1,5 +1,6 @@
 # Ruby installation
 ![Greeting Strated](docs/Ruby%20on%20Ubuntu.jpg)
+
 [Ruby link  for download](https://linuxize.com/post/how-to-install-ruby-on-ubuntu-18-04/#installing-ruby-from-ubuntu-repositories)
 
 
@@ -62,7 +63,7 @@ If the alphabet given matches with the word specified it take you to the next de
 
 # Screenshots
 ## Gems installation
-![Greeting Strated](docs/installation%20image/Gems%20.png)
+![Greeting Strated](docs/Gems%20.png)
 
 
 ## Bundler installation
@@ -75,7 +76,7 @@ sure the correct gems (and, where specified, the correct versions) are
 available, and tries to install them otherwise.  This will create a new
 file `Gemfile.lock`, *which you should place under version control.*
 
-![Greeting Strated](docs/installation%20image/bundle.png)
+![Greeting Strated](docs/bundle.png)
 
 
 * What's the difference between the purpose and contents of `Gemfile`
@@ -89,29 +90,10 @@ development environment's gems in the production environment?
 >  depend, so it is the file used by the production environment to
 >  reproduce the gems available in the development environment.
 ## Bash installation
-![Greeting Strated](docs/installation%20image/Screenshot%20bash.png)
+![Greeting Strated](docs/Screenshot%20bash.png)
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-)
-
-
-# features
- 
 
 
 
