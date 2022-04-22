@@ -1,4 +1,4 @@
-require 'random_word'
+require_relative'../random_word'
 
 RSpec.describe RandomWord do
   it "returns a word at random" do

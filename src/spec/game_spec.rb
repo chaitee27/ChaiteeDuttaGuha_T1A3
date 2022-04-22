@@ -1,4 +1,4 @@
-require 'game'
+require_relative'../game'
 
 RSpec.describe Game do
 

@@ -1,4 +1,4 @@
-require 'word'
+require_relative'../word'
 
 RSpec.describe Word do
   it "returns the guessed letters" do

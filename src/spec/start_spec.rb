@@ -1,4 +1,4 @@
-require 'start'
+require_relative'../start'
 
 RSpec.describe Start do
 

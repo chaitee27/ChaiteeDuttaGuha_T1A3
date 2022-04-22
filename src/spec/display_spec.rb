@@ -1,4 +1,4 @@
-require 'display'
+require_relative'../display'
 
 RSpec.describe Display do
 

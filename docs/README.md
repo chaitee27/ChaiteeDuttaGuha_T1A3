@@ -8,7 +8,7 @@
 
 # Trello Board
 
-Trello(https://trello.com/invite/b/4sAz62hO/86dfc3fd9dc04d00124c4c28d21df4e2/hangman)
+[Trello](https://trello.com/invite/b/4sAz62hO/86dfc3fd9dc04d00124c4c28d21df4e2/hangman)
 
 ![Greeting Strated](docs/Trello%20part%201.png)
 
@@ -18,7 +18,7 @@ Trello(https://trello.com/invite/b/4sAz62hO/86dfc3fd9dc04d00124c4c28d21df4e2/han
 
 # Description  of Hangman game
 
-Hangman is an educational word guessing game to be playled in a command-line interface.The game has been created with Ruby.When the Ruby script is called, it will start a new game and provide the user with a blank word and a clue. The script takes the user input (letter) and checks it against the selected word for the game. Make too many wrong choices and you will lose. Get all the letters correct to win! I use conditionals, string interpolation, classes, arrays and looping to put our Ruby skills to the test.
+Hangman is an educational word guessing game to be played in a command-line interface.The game has been created with Ruby.When the Ruby script is called, it will start a new game and provide the user with a blank word and a clue. The script takes the user input (letter) and checks it against the selected word for the game. Make too many wrong choices and you will lose. Get all the letters correct to win! I use conditionals, string interpolation, classes, arrays and looping to put our Ruby skills to the test.
 
 # Purpose 
 
@@ -26,15 +26,21 @@ The Purpose of making Hangman game just to learning vocabulary and fun way testi
 
 # Functionality
 
-#### Start Program 
-#### progmam greet the user.
-#### Program randomly generates a question as a clue of the answer.
-#### Promts the user the length of the words of that answer just as a clue to guess.
-#### Prompts the user for input a letetr
-#### check user input ,if correct dispaly letter in Answer word.if incorrect ,display number of live left
-#### once game over it will show the message "Game over... better luck next time!"
-#### When its win the game it will show "congratulation you have won this round.
+>Start Program
 
+> Program greet the user.
+
+>Program randomly generates a question as a clue of the answer.
+
+> Promts the user the length of the words of that answer just as a clue to guess.
+
+> Prompts the user for input a letter
+
+> Check user input ,if correct display letter in Answer word.if incorrect ,display number of live left , once game over it will show the message "Game over... better luck next time!"
+
+>When its win the game it will show "congratulation you have won this round.
+
+>Again prompts about user want to play again ,Yes/No.If user press yes then back to start game , if user press no then exit from the game.
 
 # Instruction for use
 
@@ -52,6 +58,9 @@ The Purpose of making Hangman game just to learning vocabulary and fun way testi
 12. Each correct letter will be revealed in the word.
 13. For each incorrect guess, you will lose a life. You only get 7 lives.
 14. Once you have finished the game, the program will prompt you for a yes or no if you would like to play again.
+
+# Flow chart
+![Greeting Strated](docs/HANGMAN-GUESSING-GAME.png)
 
 # Features
 
@@ -147,15 +156,6 @@ the match will succeed.
 We are permitted to apply an else clause after all the rescue clauses if an exception
 does not match any of the error types supplied.
 
-# Core Feature
-> Generate a welcome message
-
-> Generate a random word with some clue & rules of the games to user and ask for a letter _ _ _ _ _.
-
->Game structure in 5 different types of file. i.e. word.rb; display.rb ; random_word.rb , start.rb , word.rb. 
-
- >Game will start from another file i.e. Start/console.
-
 
 
 # Test feature
@@ -175,8 +175,7 @@ If the alphabet given matches with the word specified it take you to the next de
 
 
 
-# Flow chart
-![Greeting Strated](docs/Hangman-Workflow.png)
+
 
 
 
