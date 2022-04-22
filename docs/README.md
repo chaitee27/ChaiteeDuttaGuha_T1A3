@@ -1,18 +1,20 @@
 # Ruby installation
-![Greeting Strated](docs/Ruby%20on%20Ubuntu.jpg)
+![Greeting Strated](Ruby%20on%20Ubuntu.jpg)
 
 [Ruby link  for download](https://linuxize.com/post/how-to-install-ruby-on-ubuntu-18-04/#installing-ruby-from-ubuntu-repositories)
 
 
 # Github link for Terminal App ?
 
+
+
 # Trello Board
 
 [Trello](https://trello.com/invite/b/4sAz62hO/86dfc3fd9dc04d00124c4c28d21df4e2/hangman)
 
-![Greeting Strated](docs/Trello%20part%201.png)
+![Greeting Strated](Trello%20part%201.png)
 
-![Greeting Strated](docs/Trello%20part%202.png)
+![Greeting Strated](Trello%20part%202.png)
 
 
 
@@ -60,7 +62,9 @@ The Purpose of making Hangman game just to learning vocabulary and fun way testi
 14. Once you have finished the game, the program will prompt you for a yes or no if you would like to play again.
 
 # Flow chart
-![Greeting Strated](docs/HANGMAN-GUESSING-GAME.png)
+![Greeting Strated](HANGMAN-GUESSING-GAME.png)
+
+
 
 # Features
 
@@ -75,7 +79,7 @@ Ruby arrays can hold objects such as String, Integer, Fix num, Hash, Symbol, eve
 other Array objects. Ruby arrays are not as rigid as arrays in other languages. Ruby
 arrays grow automatically while adding elements to them.
 
-![Greeting Strated](docs/Screenshot%20of%20Features%20of%20Array%20example.png)
+![Greeting Strated](Screenshot%20of%20Features%20of%20Array%20example.png)
 ### 2. Methods :
 
 Methods in Ruby are a lot like functions in other programming languages. Ruby
@@ -86,7 +90,7 @@ process the call.
 Methods should be declared before they are called; otherwise, Ruby will throw an
 exception for executing an undefined method.
 
-![Greeting Strated](docs/Screenshot%20of%20Features%20of%20Methods%20Ex.png)
+![Greeting Strated](Screenshot%20of%20Features%20of%20Methods%20Ex.png)
 
 This will produce the following result −
 
@@ -104,7 +108,7 @@ some class variables at the moment of object creation, the initialize function c
 handy. This method may take a list of parameters, and it would be prefixed by the def
 keyword, just like any other ruby method, as seen below.
 
-![Greeting Strated](docs/Screenshot%20of%20Features%20of%20Methods.png)
+![Greeting Strated](Screenshot%20of%20Features%20of%20Methods.png)
 
 ### 3. OBJECT-ORIENTED:
 
@@ -121,7 +125,7 @@ doesn't describe any data, but it does define what the class name signifies, tha
 what a class object will be made up of and what actions can be done on it.
 A class definition begins with the keyword class, then the class name, and ends with
 a period. For example, using the keyword class, we defined the Box class as follows:
-![Greeting Strated](docs/Screenshot%20of%20Features%20of%20object-oriented%201.png)
+![Greeting Strated](Screenshot%20of%20Features%20of%20object-oriented%201.png)
 
 The name must begin with a capital letter, and names that comprise more than one word
 are run together with each word capitalised and no separating letters, according to
@@ -129,7 +133,7 @@ tradition (CamelCase).
 A class serves as the blueprint for things; therefore, an object is essentially formed from
 one. The new keyword is used to declare class objects. The following statements declare
 two Box objects.
-![Greeting Strated](docs/Screenshot%20of%20Features%20of%20object-oriented%202.png)
+![Greeting Strated](Screenshot%20of%20Features%20of%20object-oriented%202.png)
 
 ### 4. EXCEPTION:
 
@@ -144,7 +148,7 @@ inform Ruby what sorts of exceptions we want to manage, and we wrap the code
 that may cause an exception in a begin/end block.
 
 Syntax: 
-![Greeting Strated](docs/Screenshot%20of%20Features%20of%20Exception%201.png)
+![Greeting Strated](Screenshot%20of%20Features%20of%20Exception%201.png)
 
 Everything is safe, from the beginning to the end. Control is given to the block
 between rescue and end if an exception occurs during the execution of this block of
@@ -162,16 +166,16 @@ does not match any of the error types supplied.
 
  Input:
  As per the game give random alphabets according to users choice. For Example: a,b,c...z.
-![Greeting Strated](docs/Screenshot%20of%20Input.png)
+![Greeting Strated](Screenshot%20of%20Input.png)
 
 
 Output:
 If the alphabet given matches with the word specified it take you to the next desired word, else will show the man hanging as per wrong input
-![Greeting Strated](docs/Screenshot%20output.png)
+![Greeting Strated](Screenshot%20output.png)
 
 # Screenshots
 ## Gems installation
-![Greeting Strated](docs/Gems%20.png)
+![Greeting Strated](Gems%20.png)
 
 
 
@@ -188,7 +192,7 @@ sure the correct gems (and, where specified, the correct versions) are
 available, and tries to install them otherwise.  This will create a new
 file `Gemfile.lock`, *which you should place under version control.*
 
-![Greeting Strated](docs/bundle.png)
+![Greeting Strated](bundle.png)
 
 
 * What's the difference between the purpose and contents of `Gemfile`
@@ -202,4 +206,4 @@ development environment's gems in the production environment?
 >  depend, so it is the file used by the production environment to
 >  reproduce the gems available in the development environment.
 ## Bash installation
-![Greeting Strated](docs/Screenshot%20bash.png)
+![Greeting Strated](Screenshot%20bash.png)
