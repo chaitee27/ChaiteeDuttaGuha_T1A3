@@ -4,7 +4,8 @@
 [Ruby link  for download](https://linuxize.com/post/how-to-install-ruby-on-ubuntu-18-04/#installing-ruby-from-ubuntu-repositories)
 
 
-# Github link for Terminal App ?
+# Github link for Terminal Application
+[Git](https://github.com/chaitee27/ChaiteeDuttaGuha_T1A3)
 
 
 
